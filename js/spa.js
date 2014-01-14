@@ -21,7 +21,7 @@
 
 var spa = (function () {
 	var initModule = function ( $container ) {
-		$container.html('<h1 style="display: inline-block; margin: 25px;">' + 'testing spa' + '</spa>');
+		spa.shell.initModule($container);
 	};
 
 	return {
